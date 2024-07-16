@@ -1,6 +1,8 @@
+import 'dotenv/config'
+
 export default {
     // Bot token (string)
-    token: "MTE3NjAwNTU1OTg1NDU2NzQ1NA.GQnauz.g3a_OgbUaQmOeMeR5I6MSCN_tNaOYoArGVWcls",
+    token: process.env.TOKEN,
     guildId: "1002571149537984562", //ID ลิงค์เชิร์ฟดิสคอร์ด
     channelId: "1088869381355884585", // ID ลิงค์ห้อง Verify
     // Form for verify (array)
